@@ -1,0 +1,75 @@
+body{
+	overflow:hidden;
+	background: url(../map/map.png) repeat;
+}
+#character {
+	top: 50%;
+	left: 50%;
+	
+	width: 32px;
+	height: 32px;
+	
+	position: absolute;
+	margin: -16px 0 0 -16px;
+
+	background: url('../sprites/sacha.png') no-repeat;
+	background-position: -32px 0px;
+	z-index: 50;
+}
+#character.front-right { background-position: 0px 0px; }
+#character.front-stand { background-position: -32px 0px; }
+#character.front-left { background-position: -64px 0px; }
+
+#character.left-right { background-position: 0px -32px; }
+#character.left-stand { background-position: -32px -32px; }
+#character.left-left { background-position: -64px -32px; }
+
+#character.right-right { background-position: -64px -64px; }
+#character.right-stand { background-position: -32px -64px; }
+#character.right-left { background-position: -0px -64px; }
+
+#character.back-right { background-position: 0px -96px; }
+#character.back-stand { background-position: -32px -96px; }
+#character.back-left { background-position: -64px -96px; }
+
+.trees {
+	position: absolute;
+	background: url(../sprites/tree1.png) repeat 0 0; 
+	top: 50%;
+	left: 50%;
+	width: 32px;
+	height: 48px;
+}
+
+.trees#t1 {	margin: -100px 0 0 300px;}
+.trees#t2 {	margin: -240px 0 0 -300px;}
+.trees#t3 {	margin: 110px 0 0 80px;}
+
+
+.house {
+	position: absolute;
+	z-index: 55;
+	top: 50%;
+	left: 50%;
+}
+
+#house1 {
+	background: url(../sprites/house1.png) no-repeat;
+	width: 200px;
+	height: 140px;
+	margin:-130px 0 0 -370px;
+}
+
+.doorHole {
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 47;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+#doorHole1 {
+	width: 40px;
+	height: 70px;
+	margin: -65px 0 0 -330px;
+}
