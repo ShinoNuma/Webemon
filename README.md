@@ -1,3 +1,2 @@
-Project summary : Webemon is recode of Pokemon web version where you can follow the adventures of a character. He moves on a map followed by his faithful companion while he achieves his quest.
-Web technology used.
-Project status : Movement of the character, collision handler
+Project summary : Webemon is a recode of Pokemon using jQuery. You can follow the adventures of a character. For now you can only moves on a map followed by his faithful companion while the character achieves his quest.
+Project status : Movement of the character, collision handler.
